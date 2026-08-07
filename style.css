@@ -1,0 +1,26 @@
+/* ==========================================
+   ANIMASI LOGO (Lebih Dinamis & Menarik)
+   ========================================== */
+
+@keyframes floatLogo {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg) scale(1);
+        filter: drop-shadow(0 0 12px rgba(239, 68, 68, 0.4));
+    }
+    50% {
+        /* Naik lebih tinggi (-16px) & miring lebih kelihatan (5deg) */
+        transform: translateY(-16px) rotate(5deg) scale(1.03);
+        filter: drop-shadow(0 0 25px rgba(239, 68, 68, 0.9));
+    }
+}
+
+.animated-logo {
+    /* Waktu dipercepat jadi 2.5s agar gerakan lebih cepat & terasa */
+    animation: floatLogo 2.5s ease-in-out infinite;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.animated-logo:hover {
+    /* Efek saat kursor menempel di logo */
+    transform: scale(1.15) rotate(-6deg);
+}
