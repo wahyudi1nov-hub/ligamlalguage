@@ -9,7 +9,7 @@ function changeQRIS() {
 
     if (selectedValue === 'dana') {
         qrisImg.src = 'qris-dana.png';
-        qrisLabel.innerText = 'QRIS DANA - Ridho';
+        qrisLabel.innerText = 'QRIS DANA - MLA Laguage';
         paymentText.innerText = 'Scan QRIS DANA di bawah ini:';
     } else if (selectedValue === 'gopay') {
         qrisImg.src = 'qris-gopay.png';
