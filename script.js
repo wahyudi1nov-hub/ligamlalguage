@@ -13,15 +13,15 @@ function changeQRIS() {
         paymentText.innerText = 'Scan QRIS DANA di bawah ini:';
     } else if (selectedValue === 'gopay') {
         qrisImg.src = 'qris-gopay.png';
-        qrisLabel.innerText = 'QRIS GoPay - Ridho';
+        qrisLabel.innerText = 'QRIS GoPay - MLa Laguage';
         paymentText.innerText = 'Scan QRIS GoPay di bawah ini:';
     } else if (selectedValue === 'ovo') {
         qrisImg.src = 'qris-ovo.png';
-        qrisLabel.innerText = 'QRIS OVO - Ridho';
+        qrisLabel.innerText = 'QRIS OVO - MLA Laguage';
         paymentText.innerText = 'Scan QRIS OVO di bawah ini:';
     } else if (selectedValue === 'shopeepay') {
         qrisImg.src = 'qris-shopeepay.png';
-        qrisLabel.innerText = 'QRIS ShopeePay - Ridho';
+        qrisLabel.innerText = 'QRIS ShopeePay - MLA Laguage';
         paymentText.innerText = 'Scan QRIS ShopeePay di bawah ini:';
     }
 }
